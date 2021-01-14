@@ -1,6 +1,17 @@
 # Visavail.js - A Time Data Availability Chart
 This library visualizes the availability of time-dependent data with a chart on a website.
 
+## How to setup 
+
+```bash
+yarn  # setup
+
+yarn web 
+
+echo 'visit http://localhost:5000:/docs/gantt/_Gantt'
+```
+
+
 ## Table of Contents
 
 - [Visavail.js - A Time Data Availability Chart](#visavailjs---a-time-data-availability-chart)

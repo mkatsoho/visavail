@@ -15,10 +15,12 @@
   },
   "dependencies": {
     "d3": "5.8.0",
-    "moment": "2.24.0"
+    "moment": "2.24.0",
+    "serve": "^11.3.2"
   },
   "devDependencies": {},
   "scripts": {
+    "web": "echo; echo 'visit http://localhost:5000:/docs/gantt/_Gantt'; echo; node_modules/.bin/serve",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
