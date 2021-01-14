@@ -4,11 +4,12 @@ This library visualizes the availability of time-dependent data with a chart on 
 ## How to setup 
 
 ```bash
-yarn  # setup
+yarn      # setup
 
-yarn web 
+yarn web  # start web server
 
-echo 'visit http://localhost:5000:/docs/gantt/_Gantt'
+echo 'visit http://localhost:5000:/docs/gantt/_Gantt' # access Gantt Charts
+
 ```
 
 
