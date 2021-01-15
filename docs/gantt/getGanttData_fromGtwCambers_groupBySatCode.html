@@ -100,9 +100,11 @@
                     enable: true,
                     has_no_data_text: "Available",
                     has_data_text: "Used"
-                }
-
+                },
+                date_in_utc: true
             };
+
+            moment.locale('zh-cn');
 
             var chart = visavail.generate(options, dataset)
 
