@@ -8,7 +8,7 @@ yarn      # setup
 
 yarn web  # start web server
 
-echo 'visit http://localhost:5000:/docs/gantt/_Gantt' # access Gantt Charts
+echo 'visit http://localhost:5000/docs/gantt/_Gantt' # access Gantt Charts
 
 ```
 
