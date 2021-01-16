@@ -1,12 +1,29 @@
 # Visavail.js - A Time Data Availability Chart
 This library visualizes the availability of time-dependent data with a chart on a website.
 
-## How to setup 
+
+## Pre-requirements
+
+install node v12+
+
+install yarn globally
 
 ```bash
+npm install -g yarn --registry=https://registry.npm.taobao.org  # optionally, 可选，使用中国国内源
+npm install -g yarn 　# use default registry
+```
+
+## How to setup 
+
+
+```bash
+yarn config set registry https://registry.npm.taobao.org    # optionally, 可选，yarn使用中国国内源
+
 yarn      # setup
 
 yarn web  # start web server
+
+yarn web-win  # start web server on windows
 
 echo 'visit http://localhost:5000/docs/gantt/_Gantt' # access Gantt Charts
 
