@@ -82,33 +82,40 @@ div.y-tooltip.bottom::after {
 
 .visavail-tooltip .tooltip_has_data {
     /* color of symbol in tooltip if there is data */
-    color: #449d44;
+    /* color: #449d44; */
+    color: rgba(68, 157, 68, 0.7);
 }
 
 .visavail-tooltip .tooltip_has_no_data {
     /* color of symbol in tooltip if there is no data */
     /* color: #c9302c; */
-    color: #3498DB;
+    /* color: #3498DB; */
+    color: rgba(52, 152, 219, 0.7);
 }
 
 .visavail .rect_has_data {
     /* blocks that have data */
-    fill: #5cb85c;
+    /* fill: #5cb85c; */
+    fill: rgba(92, 184, 92, 0.7);
+    /* color: linear-gradient(#e66465, #9198e5); */
 }
 
 .visavail .rect_has_data:hover {
-    fill: #449d44
+    /* fill: #449d44; */
+    fill: rgba(68, 157, 68, 0.7);
 }
 
 .visavail .rect_has_no_data {
     /* blocks without data */
     /* fill: #d9534d; */
-    fill: #AED6F1;
+    /* fill: #AED6F1; */
+    fill: rgba(174, 214, 241, 0.7);
 }
 
 .visavail .rect_has_no_data:hover {
     /* fill: #c9302c; */
-    fill: #3498DB;
+    /* fill: #3498DB; */
+    fill: rgba(52, 152, 219, 0.7);
 }
 
 

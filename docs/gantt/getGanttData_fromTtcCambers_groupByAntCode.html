@@ -93,15 +93,18 @@
                 },
                 tooltip: {
                     height: 18,
-                    position: "overlay",
-                    left_spacing: 20
+                    position: "top",
+                    left_spacing: 20,
+                    hover_zoom: {
+                        enabled: true
+                    },
                 },
                 legend: {
                     enable: true,
                     has_no_data_text: "Available",
                     has_data_text: "Used"
                 },
-                date_in_utc: true
+                date_in_utc: true,
 
             };
             moment.locale('zh-cn');
