@@ -11,6 +11,7 @@ install yarn globally
 ```bash
 npm install -g yarn --registry=https://registry.npm.taobao.org  # optionally, 可选，使用中国国内源
 npm install -g yarn 　# use default registry
+# npm install -g pm2 　 # install PM2, which is used as supervisor
 ```
 
 ## How to setup 
@@ -22,6 +23,7 @@ yarn config set registry https://registry.npm.taobao.org    # optionally, 可选
 yarn      # setup
 
 yarn web  # start web server
+# ./pm2_start.sh    # an alternative of `yarn web`, start `yarn web` via PM2
 
 yarn web-win  # start web server on windows
 
