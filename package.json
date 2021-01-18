@@ -22,6 +22,7 @@
   "scripts": {
     "web": "echo; echo 'visit http://localhost:5000/docs/gantt/_Gantt'; echo; node_modules/.bin/serve",
     "web-win": "echo; echo 'visit http://localhost:5000/docs/gantt/_Gantt'; node_modules\\.bin\\serve",
+    "log": "git log --pretty=oneline",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
